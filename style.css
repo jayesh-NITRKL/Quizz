@@ -1,0 +1,143 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box
+}
+
+body {
+    height:100%;
+    width:100%;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+
+#container {
+    width: 500px;
+    background-color: #f8ebff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+#question {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+
+#answers {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+
+button {
+    background-color: #2E073F;
+    color: white;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+
+#nav {
+    margin-top: 20px;
+    display: flex;
+}
+
+.nav-button {
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 16px;
+    background-color: #cd95eb;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    background-color: #bdc3c7;
+}
+
+
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+#result-container {
+    
+    height: 400px;
+    width: 500px;
+    display: none;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #84bb9b;
+    color: rgb(10, 10, 10);
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+#result-container h2{
+    margin-top: 20px;
+}
+
+#result-container p{
+   margin-top: 30px;
+   font-weight: bolder;
+}
+
+#result-container h3{
+    margin-top: 20px;
+}
+
+
+#restart-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+#restart-btn:hover {
+    background-color: #c0392b;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <div id="container">
+           <div id="header">
+              <p id="score1"><span id="score"></span> </p>
+              <p id="timer1">Timer = <span id="timer">00:00</span></p>
+            </div>
+          <div id="question">question</div> 
+          <div id="answers">
+              <button id="opt1" data-index="0"></button>
+              <button id="opt2" data-index="1"></button>
+              <button id="opt3" data-index="2"></button>
+              <button id="opt4" data-index="3"></button>
+            </div>
+           <div id="nav">
+               <button class="nav-button" value="0">1</button>
+               <button class="nav-button" value="1">2</button>
+               <button class="nav-button" value="2">3</button>
+               <button class="nav-button" value="3">4</button>
+               <button class="nav-button" value="4">5</button>
+            </div>
+        </div>
+       
+     
+      <div id="result-container">
+         <h2>Quiz Completed!</h2>
+         <hr>
+         <p>Your Final Score: <span id="final-score">0</span></p>
+         <h3>Correct : <span id="correctans" style="font-weight: bolder;"></span></h3>
+         <h3>Incorrect : <span id="incorrectans"></span></h3>
+         <button id="restart-btn">Restart Quiz</button>
+      </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
